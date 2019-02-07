@@ -1,4 +1,4 @@
 (batch_badge(name)
-name.each do |name|
+name.to do |name|
   puts "Hello, my name is #{name}!"
 end

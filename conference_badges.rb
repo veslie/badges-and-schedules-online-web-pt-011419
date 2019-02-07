@@ -6,4 +6,5 @@ end
 (bathc_badge(name))
 count = 0 
 while count <= name.length-1
-puts ""
+puts "hello, #{name}! you'll be assign to room #{count}!"
+count +=1 

@@ -3,8 +3,8 @@ name.each do |name|
   puts "Hello, my name is #{name}!"
 end
 
-(bathc_badge(name))
+(batch_badge_creator(attendees))
 count = 0 
-while count <= name.length-1
-puts "hello, #{name}! you'll be assign to room #{count}!"
+while count <= attendees.length-1
+puts "hello, #{attendees}! you'll be assign to room #{count}!"
 count +=1 

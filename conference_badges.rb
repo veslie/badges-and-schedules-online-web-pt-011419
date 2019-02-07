@@ -8,8 +8,5 @@ while count <= attendees.length 6
 puts "hello, #{attendees}! you'll be assign to room #{count}!"
 count +=1 
 
-printer(attendees)
-
-
  end
 end

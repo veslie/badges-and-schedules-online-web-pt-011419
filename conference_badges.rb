@@ -3,7 +3,7 @@ name.each do |name|
   puts "Hello, my name is #{name}!"
 end
 
-(batch_badge_creator(attendees))
+(assign_rooms(attendees))
 count = 0 
 while count <= attendees.length-1
 puts "hello, #{attendees}! you'll be assign to room #{count}!"
